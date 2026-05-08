@@ -1,4 +1,4 @@
-const DEFAULT_API_BASE = "http://localhost:8000";
+const DEFAULT_API_BASE = "http://localhost:8001";
 
 export function getApiBaseUrl() {
   return (import.meta.env.VITE_BACKEND_URL as string | undefined) || DEFAULT_API_BASE;
